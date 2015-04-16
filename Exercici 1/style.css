@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width:80%;
+}
+
+.oneHalf{
+	width: 50%;
+}
+
+#canvas, #hiddenCanvas, video{
+	width: 320px;
+	height: 192px;
+}
+
+#canvas{
+	background-image: url('resources/sky.jpg');
+	background-repeat: no-repeat;
+}
+
+#hiddenCanvas{
+	display: none;
+}
